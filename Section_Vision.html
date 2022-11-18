@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <div class="main-content">
+      <div class="image">
+        <img src="./imgs/vision.png" alt="" />
+      </div>
+
+      <div class="content">
+        <div class="content-header">
+          <h2>Our Vision</h2>
+        </div>
+        <div class="content-body">
+          <p>
+            MathWorld will pursue to become a worldwide repository of test
+            questions, projects, open problems and other types of assessment.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<style>
+  * {
+    font-family: "Poppins", sans-serif;
+  }
+  .main-content {
+    padding: 100px 70px 50px 70px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main-content .content,
+  .image {
+    flex: 1;
+  }
+
+  .content .content-body {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .content {
+    text-align: right;
+  }
+
+  .main-content .image {
+    padding-left: 0px;
+  }
+
+  .main-content .image img {
+    max-width: 100%;
+    width: 500px;
+  }
+
+  .content .content-header {
+    font-size: 1.2em;
+  }
+
+  .content .content-body {
+    font-size: 1.2em;
+    margin-top: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+</style>
